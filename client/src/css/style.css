@@ -1,0 +1,30 @@
+:root {
+  --body-color: #333;
+}
+
+.app {
+  padding-top: 1rem;
+}
+
+.page-title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.message-container {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 2rem;
+  border-radius: 0.375rem;
+  border: 1px solid var(--bs-gray-400);
+  overflow-y: auto;
+}
+
+.message-container__item {
+  margin: 0;
+  padding: 0.5rem 1rem;
+}
+
+.message-container__item:nth-child(2n + 1) {
+  background-color: var(--bs-gray-200);
+}

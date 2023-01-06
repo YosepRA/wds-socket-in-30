@@ -1,0 +1,22 @@
+{
+  "name": "wds-socket-in-30",
+  "version": "1.0.0",
+  "description": "Video tutorial by Web Dev Simplified YouTube channel.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js --ignore client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YosepRA/wds-socket-in-30.git"
+  },
+  "author": "Yosep Ryan Agusta <yosep.ryan.yra@gmail.com> (https://yosepra.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YosepRA/wds-socket-in-30/issues"
+  },
+  "homepage": "https://github.com/YosepRA/wds-socket-in-30#readme",
+  "dependencies": {
+    "socket.io": "^4.5.4"
+  }
+}
